@@ -1,0 +1,38 @@
+# Ignorar arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Arquivos de saída de execução
+*.out
+*.pid
+
+# Diretórios comuns de build ou cache
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de backup do nano, vim etc
+*.swo
+*.swp
+
+# Arquivos específicos de CI/CD (caso gere cache local)
+.github/workflows/*.cache
